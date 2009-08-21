@@ -1,7 +1,7 @@
 #!ruby
 require 'time';
 
-TIMESHEET_FILE="/home/gcox/.ts"
+TIMESHEET_FILE=File.expand_path("~/.ts")
 
 action=ARGV.shift;
 
