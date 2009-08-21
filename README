@@ -1,0 +1,12 @@
+Time Tracking Client v0.1
+Graham Cox: <graham@grahamcox.co.uk>
+
+Usage: 
+ts start <activity> [<when>]
+    Start the named activity, at the specified time or now if no time specified
+ts stop [<when>]
+    Stop the current activity, at the specified time or now if no time specified
+ts what [<when>]
+	  What was I doing at the given time, or now if no time specified
+ts list <start> [<end>]
+    List all activities between the given start time, up to the given end time (or now if no time specified)
